@@ -13,4 +13,5 @@ public class HigherOrderFunctionExample2{
         processOrder(order, o -> o +(o * 0.20));
         // no discount
         processOrder(order, o -> o);
-    } }
+    }
+}
